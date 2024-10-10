@@ -8,22 +8,42 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<h1>Mohd Tauheed Khan</h1>
-    <nav>
-        <a>About</a>
-        <a>Qualifications</a>
-        <a>Contact</a>
+	<h1 role="heading">My Accessible Portfolio</h1>
+
+    <!-- Navigation -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/220px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg"
-        alt="loading..">
-    <summary>
-        I am eager and quick learner. i love being busy into develiopment and solving problem.
-    </summary>
-    <ul>
-        <li>Saif</li>
-        <li>Shama</li>
-        <li>Tahira</li>
-    </ul>
+
+    <!-- Image -->
+    <img role="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg/220px-Shah_Rukh_Khan_graces_the_launch_of_the_new_Santro.jpg" alt="A professional photo of me" />
+
+    <!-- Brief Description -->
+    <section>
+        <h2 role="heading">About Me</h2>
+        <p>Welcome to my portfolio! I am a web developer with a passion for creating accessible and user-friendly applications.</p>
+    </section>
+
+    <!-- List of Projects -->
+    <section>
+        <h2 role="heading">Projects</h2>
+        <ul role="list">
+            <li role="listitem">Project 1: Accessible Web Design</li>
+            <li role="listitem">Project 2: ARIA Integration</li>
+            <li role="listitem">Project 3: Mobile App Development</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 role="heading">Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:example@example.com">example@example.com</a>.</p>
+    </section>
+
     <script type="text/javascript" src="./script.js">
 </script>
 

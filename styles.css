@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
